@@ -8,7 +8,7 @@ class CalendarsController < ApplicationController
 
   # 予定の保存
   def create
-    binding.pry
+    
     #Plan.create(plan_params)修正前
     @plan = Plan.new(plan_params)
     if @plan.save
